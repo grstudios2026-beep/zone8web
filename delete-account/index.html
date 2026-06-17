@@ -1,61 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delete Account — Zone 8</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Account — Zone8</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 0 auto; padding: 2rem 1.5rem; color: #1a1a1a; line-height: 1.7; }
-    h1 { color: #8B5CF6; } h2 { color: #333; margin-top: 2rem; }
-    a { color: #8B5CF6; } p, li { color: #444; }
-    ul { padding-left: 1.5rem; }
-    .steps { background: #f9f9f9; border-left: 4px solid #8B5CF6; padding: 1rem 1.5rem; border-radius: 4px; margin: 1.5rem 0; }
-    .steps ol { margin: 0.5rem 0 0; padding-left: 1.5rem; }
-    .warning { background: #fff8e1; border-left: 4px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 4px; margin: 1.5rem 0; }
-    footer { margin-top: 3rem; font-size: 0.85rem; color: #888; border-top: 1px solid #eee; padding-top: 1rem; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --bg:#09060F; --surface:#1C1530; --border:#2B1F42; --accent:#8B5CF6; --text:#F0EBF8; --sub:#9080A8; --dim:#4A3568; }
+    body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.75; padding:40px 20px 80px; }
+    .container { max-width:760px; margin:0 auto; }
+    .logo { font-size:24px; font-weight:900; letter-spacing:4px; color:var(--accent); margin-bottom:6px; }
+    .tagline { font-size:11px; letter-spacing:2px; color:var(--dim); text-transform:uppercase; margin-bottom:48px; }
+    h1 { font-size:20px; font-weight:900; letter-spacing:2px; margin-bottom:6px; }
+    .meta { font-size:12px; color:var(--dim); margin-bottom:40px; }
+    .lang-nav { display:flex; gap:12px; margin-bottom:36px; flex-wrap:wrap; }
+    .lang-nav a { font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--sub); text-decoration:none; padding:6px 14px; border:1px solid var(--border); border-radius:8px; transition:all .2s; }
+    .lang-nav a:hover, .lang-nav a.active { color:var(--accent); border-color:var(--accent); }
+    p { color:var(--sub); font-size:15px; margin-bottom:14px; }
+    h2 { font-size:11px; font-weight:800; letter-spacing:2px; color:var(--accent); text-transform:uppercase; margin:36px 0 14px; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    hr { border:none; border-top:1px solid var(--border); margin:40px 0; }
+    .footer { font-size:12px; color:var(--dim); text-align:center; margin-top:60px; }
+    ul { color:var(--sub); font-size:15px; padding-left:20px; margin-bottom:14px; }
+    li { margin-bottom:6px; }
+    .steps { background:var(--surface); border-left:3px solid var(--accent); padding:16px 20px; border-radius:8px; margin:16px 0 24px; }
+    .steps ol { padding-left:20px; color:var(--sub); font-size:15px; }
+    .steps li { margin-bottom:8px; }
+    .warning { background:var(--surface); border-left:3px solid #f59e0b; padding:16px 20px; border-radius:8px; margin:16px 0 24px; color:var(--sub); font-size:14px; }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="logo">ZONE8</div>
+    <div class="tagline">Embrace the 8</div>
+    <h1>DELETE ACCOUNT</h1>
+    <div class="meta">Data deletion policy · Zone8</div>
+    <div class="lang-nav">
+      <a href="delete-account-en.html" class="active">English</a>
+      <a href="delete-account-pt.html">Português</a>
+      <a href="delete-account-es.html">Español</a>
+      <a href="privacy.html" style="margin-left:auto">Privacy Policy →</a>
+    </div>
 
-<h1>Delete Your Zone 8 Account</h1>
-<p>You can delete your Zone 8 account and all associated data at any time, either directly in the app or by contacting us.</p>
+    <p>You can delete your Zone8 account and all associated data at any time, directly in the app or by contacting us.</p>
 
-<h2>Option 1 — Delete in the app (instant)</h2>
-<div class="steps">
-  <ol>
-    <li>Open the Zone 8 app and log in.</li>
-    <li>Go to <strong>Profile</strong> (bottom right tab).</li>
-    <li>Tap <strong>Settings</strong> (gear icon).</li>
-    <li>Scroll down and tap <strong>Delete Account</strong>.</li>
-    <li>Confirm the deletion when prompted.</li>
-  </ol>
-</div>
+    <h2>Option 1 — Delete in the app</h2>
+    <div class="steps">
+      <ol>
+        <li>Open the Zone8 app and log in.</li>
+        <li>Go to <strong style="color:var(--text)">Profile</strong> (bottom right tab).</li>
+        <li>Tap <strong style="color:var(--text)">Settings</strong> (gear icon, top right).</li>
+        <li>Scroll down and tap <strong style="color:var(--text)">Delete Account</strong>.</li>
+        <li>Confirm when prompted. Deletion is immediate and permanent.</li>
+      </ol>
+    </div>
 
-<h2>Option 2 — Request by email</h2>
-<p>If you cannot access the app, send an email to <a href="mailto:guillaumeribeiro92@gmail.com">guillaumeribeiro92@gmail.com</a> with the subject line <strong>"Account Deletion Request"</strong> and include the email address associated with your account. We will process your request within 30 days.</p>
+    <h2>Option 2 — Request by email</h2>
+    <p>If you cannot access the app, email <a href="mailto:zone8privacy@gmail.com">zone8privacy@gmail.com</a> with the subject <strong style="color:var(--text)">"Account Deletion Request"</strong> and the email address linked to your account. We will process your request within 30 days.</p>
 
-<h2>What gets deleted</h2>
-<p>When your account is deleted, the following data is <strong>permanently removed</strong>:</p>
-<ul>
-  <li>Your profile (name, email, age, weight, height, photo)</li>
-  <li>All workout and race history</li>
-  <li>Feed posts, comments, and likes</li>
-  <li>League memberships and results</li>
-  <li>Training plans</li>
-  <li>Consent records and push notification tokens</li>
-  <li>All device-local data (cleared immediately on deletion)</li>
-</ul>
+    <h2>What gets deleted</h2>
+    <ul>
+      <li><strong style="color:var(--text)">Profile</strong> — name, email, age, weight, height, photo</li>
+      <li><strong style="color:var(--text)">Race history</strong> — all workout and split data</li>
+      <li><strong style="color:var(--text)">Social content</strong> — feed posts, comments, and likes</li>
+      <li><strong style="color:var(--text)">League data</strong> — memberships and results</li>
+      <li><strong style="color:var(--text)">Training plans</strong> — all coach plans and custom exercises</li>
+      <li><strong style="color:var(--text)">Consent records</strong> — GDPR consent timestamps</li>
+      <li><strong style="color:var(--text)">Push tokens</strong> — device notification tokens</li>
+    </ul>
+    <p>All device-local data is erased immediately. Server data is permanently deleted within <strong style="color:var(--text)">30 days</strong>.</p>
 
-<div class="warning">
-  <strong>Note on subscriptions:</strong> Deleting your account does not automatically cancel your App Store or Google Play subscription. Please cancel your subscription separately in your device's subscription settings before or after deleting your account to avoid future charges.
-</div>
+    <h2>Subscriptions</h2>
+    <div class="warning">
+      Deleting your account does <strong>not</strong> automatically cancel your App Store or Google Play subscription. Cancel your subscription in your device's subscription settings separately to avoid future charges.
+    </div>
 
-<h2>Data retention after deletion</h2>
-<p>All personal data is permanently deleted from our servers within <strong>30 days</strong> of the deletion request. Anonymised, aggregated statistics that cannot be linked back to you may be retained for service improvement purposes.</p>
+    <h2>Partial data deletion</h2>
+    <p>You can also delete specific content without deleting your account: remove individual posts in the Feed, delete race results in History, or clear your profile photo in Settings. For other specific data removal requests, contact <a href="mailto:zone8privacy@gmail.com">zone8privacy@gmail.com</a>.</p>
 
-<footer>
-  Zone 8 &mdash; <a href="/privacy">Privacy Policy</a> &mdash; Contact: <a href="mailto:guillaumeribeiro92@gmail.com">guillaumeribeiro92@gmail.com</a>
-</footer>
-
+    <hr>
+    <div class="footer">
+      © 2026 GR Studios · Zone8 · <a href="https://zone8embracethe8.com">zone8embracethe8.com</a><br>
+      <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
 </body>
 </html>
